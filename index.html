@@ -4,6 +4,13 @@
 <title>Brandon He</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script>
+	$(document).ready(function() {
+	$("button").addClass("animated");
+
+	});
+</script>
 <style>
 	body {
 		font-family: Comic Sans;
@@ -11,25 +18,34 @@
 	.header {
 		padding: 80px;
 		text-align: center;
-		background: blue;
-		color: yellow;
+		background: white;
+		color: black;
 	}
-	.header h1 {
-		font-size: 40px;
+	.roundImage {
+		border-radius: 50%;
 	}
 </style>
 </head>
 
 <body>
+	<div class="row">
+		<div class="col-md-6 text-center">
+			<button class="btn btn-block btn-primary">Home</button>
+		</div>
+		<div class="col-md-6 text-center">
+			<button class="btn btn-block btn-primary">Projects</button>
+		</div>
+		<div class="col-md-6 text-center">
+			<button class="btn btn-block btn-primary">About Me</button>
+		</div>
+		<div class="col-md-6 text-center">
+			<button class="btn btn-block btn-primary">Contact</button>
+		</div>
+	</div>
 	<div class="header">
-		<h1 class="text-primary text-center">My Website</h1>
-		<a href="#"><img class="img-responsive" src="https://goo.gl/images/u2hVb4" alt="Me"></a>
-		<p>Welcome To My Website</p>
+		<p class="text-center">Brandon He</p>
 	</div>
-	<div class="navbar">
-		<a href="#">Projects</a>
-		<a href="#">About Me</a>
-		<a href="#" class="right">Contact</a>
-	</div>
+	<a href="#"><img class="img-responsive roundImage" src="https://goo.gl/images/u2hVb4" alt="Responsive image"></a>
+		<p class="text-center">Welcome To My Website</p>
 </body>
 </html>
