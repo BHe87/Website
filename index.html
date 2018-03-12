@@ -16,11 +16,13 @@
 		font-family: Comic Sans;
 	}
 	.header {
+		font-size: 150px
 		padding: 80px;
 		text-align: center;
-		background: white;
-		color: black;
+		background: black;
+		color: white;
 	}
+
 	.roundImage {
 		border-radius: 50%;
 	}
@@ -28,24 +30,26 @@
 </head>
 
 <body>
-	<div class="row">
-		<div class="col-md-6 text-center">
-			<button class="btn btn-block btn-primary">Home</button>
-		</div>
-		<div class="col-md-6 text-center">
-			<button class="btn btn-block btn-primary">Projects</button>
-		</div>
-		<div class="col-md-6 text-center">
-			<button class="btn btn-block btn-primary">About Me</button>
-		</div>
-		<div class="col-md-6 text-center">
-			<button class="btn btn-block btn-primary">Contact</button>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-6 text-center">
+				<button type="button" class="btn btn-block btn-info">Home</button>
+			</div>
+			<div class="col-lg-6 text-center">
+				<button type="button" class="btn btn-block btn-info">Projects</button>
+			</div>
+			<div class="col-lg-6 text-center">
+				<button type="button" class="btn btn-block btn-info">About Me</button>
+			</div>
+			<div class="col-lg-6 text-center">
+				<button type="button" class="btn btn-block btn-info">Contact</button>
+			</div>
 		</div>
 	</div>
 	<div class="header">
 		<p class="text-center">Brandon He</p>
-	</div>
-	<a href="#"><img class="img-responsive roundImage" src="https://goo.gl/images/u2hVb4" alt="Responsive image"></a>
+		<a href="#"><img class="img-responsive roundImage" src="https://goo.gl/images/u2hVb4" alt="image"></a>
 		<p class="text-center">Welcome To My Website</p>
+	</div>
 </body>
 </html>
